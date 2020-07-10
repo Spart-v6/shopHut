@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Shop Hut - The best website for shopping!</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">ShopHut</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about.html">About Us</a>
+                </li>
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Topics
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/nature.html">Nature Park</a>
+                        <a class="dropdown-item" href="/tech.html">Tech Park</a>
+                        <a class="dropdown-item" href="/coding.html">Coding Park</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/blog.html">Our blog</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact.html">Contact Us</a>
+                </li>
+                <!-- <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li> -->
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <div class="mx-2">
+                <button class="btn btn-outline-danger" data-toggle="modal" data-target="#loginModal">Login</button>
+                <button class="btn btn-outline-danger" data-toggle="modal" data-target="#signupModal">Sign Up</button>
+            </div>
+        </div>
+    </nav>
+
+  
+  <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Login to ShopHut</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Log in</button>
+                    </form>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+  <!-- Sign Up Modal -->
+    <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Create an ShopHut account</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputUsername">Enter your username</label>
+                        <input type="text" class="form-control" id="exampleInputUsername" aria-describedby="emailHelp">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Enter your email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Enter your password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Confirm your password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Create Account</button>
+                    </form>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    <!--main-->
+    <div class="container">
+    <div class="jumbotron p-4 p-md-5 text-white rounded" style="background-color:rgb(92, 43, 138);">
+        <div class="col-md-6 px-0">
+          <h1 class="display-4 font-italic">My Blog - Ankur</h1>
+          <p class="lead my-3">A blog-spot, informing new readers quickly and efficiently about what’s most interesting in this blog's contents.</p>
+          <p class="lead mb-0"><a href="#Content" class="text-white font-weight-bold">Continue reading...</a></p>
+        </div>
+      </div>
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" >
+            <div class="col p-4 d-flex flex-column position-static" >
+              <strong class="d-inline-block mb-2 text-primary" id="Content">Pets</strong>
+              <h3 class="mb-0" >Labrador Dogs</h3>
+              <div class="mb-1 text-muted">Today</div>
+              <p class="card-text mb-auto">I love all kind of animals (scared of lion though), but i love dogs specially labrador!</p>
+              <a href="#LabDog" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+                <img class="bd-placeholder-img" width="200" height="250" src="blog17.jpg" alt="Unable to load image" style="height: 238px;width: 240px;">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-danger">Cars</strong>
+              <h3 class="mb-0">Huracan</h3>
+              <div class="mb-1 text-muted">Today</div>
+              <p class="mb-auto">Oh this? This is one of my dream and favourite car (Lamborghini).</p>
+              <a href="#LamboHuracan" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+                <img class="bd-placeholder-img" width="200" height="250" src="blog12.jpg" alt="Unable to load image" style="height: 238px; width: 240px;">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <main role="main" class="container">
+        <div class="row">
+          <div class="col-md-8 blog-main">
+            <h3 class="pb-4 mb-4 font-italic border-bottom">
+              From the beginning
+            </h3>
+      
+            <div class="blog-post">
+              <h2 class="blog-post-title">Let's Start</h2>
+              <p class="blog-post-meta">Today by <a href="#">Ankur</a></p>
+      
+              <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
+              <hr>
+              <p>This blog page is created by Ankur with some tools and quick tips from Bootstrap. Read below to see what i like and yeah what not. </p>
+              <blockquote>
+                <p>Basically i love dogs and cars which you probably saw in the above cards. Though there are many things which i like and hate but i can't tell you much about me here else the page will become messy lol.</p>
+              </blockquote>
+              <p>I literally don't know what to write xD</p>
+
+              <h3 id="LabDog">Labrador's</h3>
+              <p>Labrador retrievers were bred to be the perfect water dogs: They have water-resistant double coats that provide insulation, and their short fur keeps them warm but doesn't drag them down when it gets wet. Their webbed toes facilitate speedy swimming.</p>
+              <pre><code>Are they friendly?</code></pre>
+              <p>Of course! The most popular dog breed in the United States according to the AKC, Labrador retrievers are friendly, active and intelligent, and have a great, gentle temperament. In addition to being perfect family dogs, these eager-to-please pets are also ideal as service animals.</p>
+
+              <h3 id="LamboHuracan">Lamborghini Huracan</h3>
+              <p>September 2018) Huracan (/ˈhʊrəkən, ˈhʊrəˌkɑːn/; Spanish: Huracán; Mayan languages: Hunraqan, "one legged"), often referred to as U Kʼux Kaj, the "Heart of Sky", is a Kʼicheʼ Maya god of wind, storm, fire and one of the creator deities who participated in all three attempts at creating humanity.</p>
+              What is Lamborghini made of?
+              <ul>
+                <li>The interior fully reflects the character of the Huracán Performante, that is to say being the fastest.</li>
+                <li>The interior fittings are made from the highest quality materials: the seats are made of carbon fiber.</li>
+                <li>The interior parts of Forged Composites®, and the upholstery is made from Alcantara.</li>
+              </ul>
+              <p>Cool facts about Huracan</p>
+              <ol>
+                <li>It has a base price of $199,805, it's technically the cheapest Lamborghini on the market.</li>
+                <li>It boasts an impressive top speed of 202 mph. It takes only 2.9 seconds for the Huracán EVO to go from zero to 100 kph (62 mph).</li>
+                <li>Surprisingly, The Lamborghini Huracan Is Actually Faster Than The Aventador SVJ In A Drag Race.</li>
+              </ol>
+              <p>Let's keep it going...</p>
+            </div><!-- /.blog-post -->
+      
+            <div class="blog-post">
+              <h2 class="blog-post-title">All about ShopHut</h2>
+              <p class="blog-post-meta">Today by <a href="#">Ankur</a></p>
+      
+              <p>What is ShopHut is all about? Basically it is under-development website which is still being created and updated. It has topics related to Nature, Technical things and something about coding.</p>
+              <blockquote>
+                <p>Nature, in the broadest sense, is the natural, physical, or material world or universe. "Nature" can refer to the phenomena of the physical world, and also to life in general. The study of nature is a large, if not the only, part of science.</p>
+              </blockquote>
+              <p>Technology is the sum of techniques, skills, methods, and processes used in the production of goods or services or in the accomplishment of objectives, such as scientific investigation.</p>
+              <p>Coding is a list of step-by-step instructions that get computers to do what you want them to do. Coding makes it possible for us to create computer software, games, apps and websites. Coders, or programmers, are people who write the programmes behind everything we see and do on a computer.</p>
+            </div><!-- /.blog-post -->
+      
+            <div class="blog-post">
+              <h2 class="blog-post-title">New features</h2>
+              <!-- <p class="blog-post-meta">December 14, 2013 by <a href="#">Chris</a></p> -->
+      
+              <p>Under-development.</p>
+            </div><!-- /.blog-post -->
+      
+            <nav class="blog-pagination">
+              <a class="btn btn-outline-primary" href="#">Older</a>
+              <a class="btn btn-outline-secondary disabled" href="#" tabindex="-1" aria-disabled="true">Newer</a>
+            </nav>
+      
+          </div><!-- /.blog-main -->
+      
+          <aside class="col-md-4 blog-sidebar">
+            <div class="p-4 mb-3 bg-light rounded">
+              <h4 class="font-italic">About</h4>
+              <p class="mb-0">Myself <em>Ankur</em>. Hope you will enjoy reading my blog and exploring this website.</p>
+            </div>
+      
+            <div class="p-4">
+              <h4 class="font-italic">Archives</h4>
+              <ol class="list-unstyled mb-0">
+                <li><a href="#">March 2014</a></li>
+                <li><a href="#">February 2014</a></li>
+                <li><a href="#">January 2014</a></li>
+                <li><a href="#">December 2013</a></li>
+                <li><a href="#">November 2013</a></li>
+                <li><a href="#">October 2013</a></li>
+                <li><a href="#">September 2013</a></li>
+                <li><a href="#">August 2013</a></li>
+                <li><a href="#">July 2013</a></li>
+                <li><a href="#">June 2013</a></li>
+                <li><a href="#">May 2013</a></li>
+                <li><a href="#">April 2013</a></li>
+              </ol>
+            </div>
+      
+            <div class="p-4">
+              <h4 class="font-italic">Elsewhere</h4>
+              <ol class="list-unstyled">
+                <li><a href="https://google.com">Google</a></li>
+                <li><a href="https://twitter.com">Twitter</a></li>
+                <li><a href="https://facebook.com">Facebook</a></li>
+                <li><a href="https://linkedin.com">LinkedIn</a></li>
+              </ol>
+            </div>
+          </aside><!-- /.blog-sidebar -->
+      
+        </div><!-- /.row -->
+      
+      </main>
+
+    </div>
+
+
+
+
+    <footer class="container card-footer bg-transparent border-success my-2">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>© 2020-2021 ShopHut, All Right Reserved· <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+      </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

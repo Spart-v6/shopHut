@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Shop Hut - The best website for shopping!</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">ShopHut</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about.html">About Us</a>
+                </li>
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Topics
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/nature.html">Nature Park</a>
+                        <a class="dropdown-item" href="/tech.html">Tech Park</a>
+                        <a class="dropdown-item" href="/coding.html">Coding Park</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/blog.html">Our blog</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact.html">Contact Us</a>
+                </li>
+                <!-- <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li> -->
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <</form>
+            <div class="mx-2">
+                <button class="btn btn-outline-danger" data-toggle="modal" data-target="#loginModal">Login</button>
+                <button class="btn btn-outline-danger" data-toggle="modal" data-target="#signupModal">Sign Up</button>
+            </div>
+        </div>
+    </nav>
+
+  
+  <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Login to ShopHut</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Log in</button>
+                    </form>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+  <!-- Sign Up Modal -->
+    <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Create an ShopHut account</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputUsername">Enter your username</label>
+                        <input type="text" class="form-control" id="exampleInputUsername" aria-describedby="emailHelp">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Enter your email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Enter your password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Confirm your password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Create Account</button>
+                    </form>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    
+    <main role="main">
+
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+        <div class="jumbotron" style="background-color: #ff000045;">
+          <div class="container">
+            <h1 class="display-3">Coding Zone!</h1>
+            <p>Coding is the process of using a programming language to get a computer to behave how you want it to. Every line of code tells the computer to do something, and a document full of lines of code is called a script.
+                Each script is designed to carry out a job. This job might be to take an image and change its size. It might play a certain sound or piece of music. When you click like on someone’s post on social media, a script is what makes it happen.
+                Unlike people, computers will do exactly what you tell them to. This might sound great, but it can cause problems. If you tell a computer to start counting upwards, and don’t tell it to stop, it’ll keep counting forever! Being a good programmer is all about knowing how to tell a computer to act.</p>
+            <p><a class="btn btn-primary btn-lg" href="#ReadMore" role="button">Read more below »</a></p>
+          </div>
+        </div>
+        
+        <div class="container d-flex  ">
+          <!-- Example row of columns -->
+          <div class="card mb-3 ml-5 " id="ReadMore" style="max-width: 18rem; border:2px solid black">
+            <div class="card-header d-flex justify-content-center align-items-center" style="font-size: 25px;background-color: #8dff82;
+            font-weight: 450;">Python</div>
+            <div class="card-body text-dark" style="background-color: #bfffc1;">
+              <p class="card-text">
+                Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse. The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.
+              </p>
+            </div>
+          </div>
+          <div class="card mb-3 ml-5 " id="ReadMore" style="max-width: 18rem; border:2px solid black">
+            <div class="card-header d-flex justify-content-center align-items-center" style="font-size: 25px;background-color: #ff9f80;
+            font-weight: 450;">JavaScript</div>
+            <div class="card-body text-dark" style="background-color: #ffe0d6;">
+              <p class="card-text">
+                JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved. It is the third layer of the layer cake of standard web technologies, two of which (HTML and CSS) we have covered in much more detail in other parts of the Learning Area. JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else. (Okay, not everything, but it is amazing what you can achieve with a few lines of JavaScript code.)
+              </p>
+            </div>
+          </div>
+          <div class="card mb-3 ml-5 " id="ReadMore" style="max-width: 18rem; border:2px solid black">
+            <div class="card-header d-flex justify-content-center align-items-center" style="font-size: 25px;background-color: #b58bff;
+            font-weight: 450;">C++</div>
+            <div class="card-body text-dark" style="background-color: #f5bbff;">
+              <p class="card-text">
+                C++ is an object oriented computer language created by notable computer scientist Bjorne Stroustrop as part of the evolution of the C family of languages.
+                Some call C++ “C with classes” because it introduces object oriented programming principles, including the use of defined classes, to the C programming language framework.
+                C++ is pronounced "see-plus-plus.". When C++ was new, object oriented programming was just coming on the scene. This revolutionary type of computer programming transformed the coding world with its promise of more sophisticated virtual data types and objects.
+
+                In object oriented programming, an object is a data type that has both data and functions inherent in its design.
+              </p>
+            </div>
+          </div>
+          
+          <hr>  
+
+      </main>
+
+
+
+    <footer class="container card-footer bg-transparent border-success my-2">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>© 2020-2021 ShopHut, All Right Reserved· <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+      </footer>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

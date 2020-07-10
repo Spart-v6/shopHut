@@ -1,0 +1,42 @@
+html{
+    scroll-behavior: smooth;
+}
+.bg-dark{
+    background-color: #1e1e1e!important;
+}
+#Nature1{
+    text-decoration: none;
+    color: white;
+}
+#Nature2{
+    text-decoration: none;
+    color: white;
+}
+#Nature3{
+    text-decoration: none;
+    color: white;
+}
+#Tech1{
+    text-decoration: none;
+    color: white;
+}
+#Tech2{
+    text-decoration: none;
+    color: white;
+}
+#Tech3{
+    text-decoration: none;
+    color: white;
+}
+#Code1{
+    text-decoration: none;
+    color: white;
+}
+#Code2{
+    text-decoration: none;
+    color: white;
+}
+#Code3{
+    text-decoration: none;
+    color: white;
+}
